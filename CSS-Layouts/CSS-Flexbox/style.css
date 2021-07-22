@@ -304,3 +304,20 @@ h2::before {
   margin-bottom: 5px;
   display: block;
 }
+
+/* Generic name for flex container that we can reuse */
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 30px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+}
