@@ -51,6 +51,39 @@
         /* align-items: stretch; */
         /* center horizontally */
         justify-content: center;
+        /* gap: 30px; */
+      }
+
+      .el {
+        /* Defaults: */
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+        /* to change width of elements we use flex-basis not width */
+        /* flex-basis: 100px; */
+        /* flex-shrink: 0;
+        flex-grow: 1; */
+        flex: 1;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        /* to move to the back number has to be greater than previously set
+        flex item */
+        /* order: 2; */
+      }
+
+      .el--5 {
+        align-self: stretch;
+        order: 1;
+      }
+
+      .el--6 {
+        /* by default order is 0 for every flex item */
+        /* so choose a number lower than 0 which will move the item to the front 
+        of the row */
+        order: -1;
       }
     </style>
   </head>
