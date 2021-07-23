@@ -141,10 +141,10 @@ body {
 
 /* Flexbox Layout */
 
-/* .container {
+.container {
   display: flex;
   gap: 20px;
-} */
+}
 
 .product-price {
   display: flex;
@@ -157,5 +157,3 @@ body {
   display: flex;
   gap: 10px;
 }
-
-/* CSS Grid Layout */
